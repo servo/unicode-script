@@ -19,7 +19,7 @@ pub const UNICODE_VERSION: (u64, u64, u64) = (8, 0, 0);
 pub use self::Script::*;
 
     #[allow(non_camel_case_types)]
-    #[derive(Clone, Copy, Debug, PartialEq, Eq)]
+    #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
     /// Represents the Unicode character property **Script**.
     ///
     /// http://www.unicode.org/reports/tr24/

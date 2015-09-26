@@ -1,6 +1,6 @@
 [package]
 name = "unicode-script"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["The Servo Project Developers"]
 license = "MIT / Apache-2.0"
 description = "Look up the Unicode Script property"

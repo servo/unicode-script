@@ -144,7 +144,7 @@ def emit_script_module(f, script_table):
     f.write("""pub use self::Script::*;
 
     #[allow(non_camel_case_types)]
-    #[derive(Clone, Copy, Debug, PartialEq, Eq)]
+    #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
     /// Represents the Unicode character property **Script**.
     ///
     /// http://www.unicode.org/reports/tr24/
