@@ -19,6 +19,7 @@ impl Script {
         use Script::*;
         use harfbuzz_sys::*;
         match self {
+            Adlam => HB_SCRIPT_ADLAM,
             Ahom => HB_SCRIPT_AHOM,
             Anatolian_Hieroglyphs => HB_SCRIPT_ANATOLIAN_HIEROGLYPHS,
             Arabic => HB_SCRIPT_ARABIC,
@@ -29,6 +30,7 @@ impl Script {
             Bassa_Vah => HB_SCRIPT_BASSA_VAH,
             Batak => HB_SCRIPT_BATAK,
             Bengali => HB_SCRIPT_BENGALI,
+            Bhaiksuki => HB_SCRIPT_BHAIKSUKI,
             Bopomofo => HB_SCRIPT_BOPOMOFO,
             Brahmi => HB_SCRIPT_BRAHMI,
             Braille => HB_SCRIPT_BRAILLE,
@@ -90,6 +92,8 @@ impl Script {
             Malayalam => HB_SCRIPT_MALAYALAM,
             Mandaic => HB_SCRIPT_MANDAIC,
             Manichaean => HB_SCRIPT_MANICHAEAN,
+            Marchen => HB_SCRIPT_MARCHEN,
+            Masaram_Gondi => HB_SCRIPT_MASARAM_GONDI,
             Meetei_Mayek => HB_SCRIPT_MEETEI_MAYEK,
             Mende_Kikakui => HB_SCRIPT_MENDE_KIKAKUI,
             Meroitic_Cursive => HB_SCRIPT_MEROITIC_CURSIVE,
@@ -102,7 +106,9 @@ impl Script {
             Myanmar => HB_SCRIPT_MYANMAR,
             Nabataean => HB_SCRIPT_NABATAEAN,
             New_Tai_Lue => HB_SCRIPT_NEW_TAI_LUE,
+            Newa => HB_SCRIPT_NEWA,
             Nko => HB_SCRIPT_NKO,
+            Nushu => HB_SCRIPT_NUSHU,
             Ogham => HB_SCRIPT_OGHAM,
             Ol_Chiki => HB_SCRIPT_OL_CHIKI,
             Old_Hungarian => HB_SCRIPT_OLD_HUNGARIAN,
@@ -113,6 +119,7 @@ impl Script {
             Old_South_Arabian => HB_SCRIPT_OLD_SOUTH_ARABIAN,
             Old_Turkic => HB_SCRIPT_OLD_TURKIC,
             Oriya => HB_SCRIPT_ORIYA,
+            Osage => HB_SCRIPT_OSAGE,
             Osmanya => HB_SCRIPT_OSMANYA,
             Pahawh_Hmong => HB_SCRIPT_PAHAWH_HMONG,
             Palmyrene => HB_SCRIPT_PALMYRENE,
@@ -130,6 +137,7 @@ impl Script {
             SignWriting => HB_SCRIPT_SIGNWRITING,
             Sinhala => HB_SCRIPT_SINHALA,
             Sora_Sompeng => HB_SCRIPT_SORA_SOMPENG,
+            Soyombo => HB_SCRIPT_SOYOMBO,
             Sundanese => HB_SCRIPT_SUNDANESE,
             Syloti_Nagri => HB_SCRIPT_SYLOTI_NAGRI,
             Syriac => HB_SCRIPT_SYRIAC,
@@ -140,6 +148,7 @@ impl Script {
             Tai_Viet => HB_SCRIPT_TAI_VIET,
             Takri => HB_SCRIPT_TAKRI,
             Tamil => HB_SCRIPT_TAMIL,
+            Tangut => HB_SCRIPT_TANGUT,
             Telugu => HB_SCRIPT_TELUGU,
             Thaana => HB_SCRIPT_THAANA,
             Thai => HB_SCRIPT_THAI,
@@ -151,6 +160,7 @@ impl Script {
             Vai => HB_SCRIPT_VAI,
             Warang_Citi => HB_SCRIPT_WARANG_CITI,
             Yi => HB_SCRIPT_YI,
+            Zanabazar_Square => HB_SCRIPT_ZANABAZAR_SQUARE,
         }
     }
 }
