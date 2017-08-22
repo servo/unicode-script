@@ -2,7 +2,7 @@
 
 Look up the [Unicode Script Property][tr24] for any Unicode codepoint.
 
-[Documentation](http://doc.servo.org/unicode_script/)
+[Documentation](https://docs.rs/unicode-script/)
 
 [![Build Status](https://travis-ci.org/servo/unicode-script.svg?branch=master)](https://travis-ci.org/servo/unicode-script)
 

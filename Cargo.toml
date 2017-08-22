@@ -5,7 +5,8 @@ authors = ["The Servo Project Developers"]
 license = "MIT / Apache-2.0"
 description = "Look up the Unicode Script property"
 repository = "https://github.com/servo/unicode-script"
-documentation = "http://doc.servo.org/unicode_script/"
+documentation = "https://docs.rs/unicode-script/"
+readme="README.md"
 keywords = ["unicode", "text", "i18n", "script"]
 
 [features]
