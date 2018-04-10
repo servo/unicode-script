@@ -1,6 +1,6 @@
 [package]
 name = "unicode-script"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["The Servo Project Developers"]
 license = "MIT / Apache-2.0"
 description = "Look up the Unicode Script property"
@@ -12,5 +12,5 @@ keywords = ["unicode", "text", "i18n", "script"]
 harfbuzz = ["harfbuzz-sys"]
 
 [dependencies.harfbuzz-sys]
-version = "0.1"
+version = "0.2"
 optional = true
