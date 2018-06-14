@@ -24,6 +24,7 @@ pub use self::Script::*;
     ///
     /// http://www.unicode.org/reports/tr24/
     pub enum Script {
+        #[doc(hidden)] _NonExhaustive,
         Unknown,
         Adlam,
         Ahom,

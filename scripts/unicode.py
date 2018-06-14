@@ -149,6 +149,7 @@ def emit_script_module(f, script_table):
     ///
     /// http://www.unicode.org/reports/tr24/
     pub enum Script {
+        #[doc(hidden)] _NonExhaustive,
         Unknown,
 """)
     for script in scripts:

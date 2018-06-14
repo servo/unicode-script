@@ -161,6 +161,7 @@ impl Script {
             Warang_Citi => HB_SCRIPT_WARANG_CITI,
             Yi => HB_SCRIPT_YI,
             Zanabazar_Square => HB_SCRIPT_ZANABAZAR_SQUARE,
+            _NonExhaustive => HB_SCRIPT_UNKNOWN,
         }
     }
 }
