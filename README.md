@@ -1,5 +1,7 @@
 # unicode-script
 
+**This repository is deprecated, further development of this crate (0.4.0 onwards) is occurring [here](github.com/unicode-rs/unicode-script/)**
+
 Look up the [Unicode Script Property][tr24] for any Unicode codepoint.
 
 [Documentation](https://doc.servo.org/unicode_script/)
